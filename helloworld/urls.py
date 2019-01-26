@@ -1,4 +1,4 @@
-"""helloworld URL Configuration
+"""HelloWorld URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -23,7 +23,7 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
 
     # Hello World!
-    (r'', 'helloworld.views.index'),
+    (r'', 'HelloWorld.views.index'),
 )
 
 if settings.DEBUG:
